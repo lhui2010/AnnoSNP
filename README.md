@@ -42,13 +42,13 @@ chromosome01   |  433888 | A    |   G
 ##Output
 ___*.snp_spec___ contained the annotation result for each SNP
 
-GeneName |  Chromosome | Strand | Loci | Reference | SNP  | LociCDS | Phase |  ReferenceCodon | SNPCodon  |  MutationType
-------   | ---------   | ------ | ---- | --------  | --   | ------- | ----- | --------------- | --------  |  -------------
-Os01t0104000-01 | chromosome01  |    -   |  205867  |  A  |   G  |   1251  |    2  |   TAT |  TAC |  Synonymous
-Os01t0108000-01  | chromosome01   |   +  |   422620  |  T  |   G  |   621 |  2   |  CAT  | CAG |  Radical
-Os01t0108000-01 |  chromosome01  |    +  |   424391  |  A   |  G   |  1032   |   2  |   AAA |  AAG |  Synonymous
-Os01t0108500-00 |  chromosome01   |   +   |  460096  |  T  |   C   |  690 |  2  |   CTT |  CTC  | Synonymous
-Os01t0110400-01 |  chromosome01  |    +  |   549270  |  A   |  G  |   619  | 0  |   ACA  | GCA  | Radical
+| GeneName |  Chromosome | Strand | Loci | Reference | SNP  | LociCDS | Phase |  ReferenceCodon | SNPCodon  |  MutationType |
+| ------   | ---------   | ------ | ---- | --------  | --- | ------- | ----- | --------------- | --------  |  ------------- |
+| Os01t0104000-01 | chromosome01  |    -   |  205867  |  A  |   G  |   1251  |    2  |   TAT |  TAC |  Synonymous |
+| Os01t0108000-01  | chromosome01   |   +  |   422620  |  T  |   G  |   621 |  2   |  CAT  | CAG |  Radical |
+| Os01t0108000-01 |  chromosome01  |    +  |   424391  |  A   |  G   |  1032   |   2  |   AAA |  AAG |  Synonymous |
+| Os01t0108500-00 |  chromosome01   |   +   |  460096  |  T  |   C   |  690 |  2  |   CTT |  CTC  | Synonymous |
+| Os01t0110400-01 |  chromosome01  |    +  |   549270  |  A   |  G  |   619  | 0  |   ACA  | GCA  | Radical |
 
 
 
