@@ -49,7 +49,7 @@ Os01t0108500-00 chromosome01    +   460096  T   C   690 2   CTT CTC Synonymous
 Os01t0110400-01 chromosome01    +   549270  A   G   619 0   ACA GCA Radical 
 
 
-*.snp_stat is the statistics of mutation on each genes
+___*.snp_stat___ is the statistics of mutation on each genes
 
 GeneName    Nonsynonymous   Synonymous  Radical 
 Os01t0104000-01 0   1   0   
