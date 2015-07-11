@@ -1,4 +1,4 @@
-I#AnnoSNP
+#AnnoSNP
 
 ##Description
 AnnoSNP is a light weight tool for predicting the effect of SNPs on genes, which was designed for newly asssembled genomes.
