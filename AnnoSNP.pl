@@ -3,7 +3,6 @@
 use 5.12.0;
 use FindBin;
 use lib "$FindBin::Bin/lib";
-use lib "/lustre/user/liuhui/bin/libs";
 use Bio::FeatureIO;#THE MODULE GFF.pm was modified to bypass irregular Terms
 use Bio::Align::RadicalChanges;#THE MODULE RadicalChanges was adopted from DNAStatistics, adding radical mutation detection to get_syn_changes()
 
@@ -119,7 +118,7 @@ for my $this_gene (sort keys  %gene)
 		-exons => [
 			map {
 				Bio::Location::Simple->new(
-					-start  => $_ ->start,#location->{_start}, 
+					-start  => $_ ->start,#location->{_start},
 					-end =>    $_ ->end, #location->{_end},
 					-strand => $_ ->strand, #location->{_strand},
 					-seq_id => $_ ->seq_id,
@@ -153,7 +152,7 @@ while(<$snp_file>)
 	my @tmp_array = &SNP_stat($chr, $location,$ref_base, $snp_base, \%chr_mapper, \%cds_mapper, \%seq);#exit;
 
 	for my $tmp(@tmp_array)
-	{			
+	{
 		if($$tmp{strand} ne "NA")
 		{
 			$gene_mutation_count{$$tmp{gene_name}}{$$tmp{mutation_type}} ++;#= $this_frequency;
