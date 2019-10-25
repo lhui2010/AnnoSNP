@@ -1,0 +1,9 @@
+Seqname		Source		Feature	Start	End	Score	Strand	Frame	Attributes
+chromosome01	build5_rep	mRNA	1983	9815	.	+	.	Name=Os01t0100100-01;ID=Os01t0100100-01
+chromosome01	build5_rep	CDS	2449	2616	.	+	.	Parent=Os01t0100100-01
+chromosome01	build5_rep	CDS	3357	3455	.	+	.	Parent=Os01t0100100-01
+chromosome01	build5_rep	CDS	4457	4560	.	+	.	Parent=Os01t0100100-01
+chromosome01	build5_rep	CDS	6136	6944	.	+	.	Parent=Os01t0100100-01
+chromosome01	build5_rep	CDS	7028	7150	.	+	.	Parent=Os01t0100100-01
+chromosome01	build5_rep	CDS	7232	7320	.	+	.	Parent=Os01t0100100-01
+chromosome01	build5_rep	CDS	7408	7608	.	+	.	Parent=Os01t0100100-01

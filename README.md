@@ -1,28 +1,35 @@
-#AnnoSNP
+# AnnoSNP
 
-##Description
+## Description
 AnnoSNP is a light weight tool for predicting the effect of SNPs on genes, which was designed for newly asssembled genomes.
 
-###Advatages of AnnoSNP:
+### Advatages of AnnoSNP:
 
     1. You do not need to build a database for fasta file.
     2. Besides Chromosome name, loci, ReferenceGenotype and SNPGenotype, no additional information is needed.
 
 
-##Prerequisite
-Perl version (>5.12.0) is required
+## Prerequisite
+Perl version (>5.12.0) is required (I recommand to use ActivePerl)
+BioPerl (`ppm install BioPerl`)
 
 
-##Install
+## Install
 $ git clone https://github.com/lhui2010/AnnoSNP
 
-##Usage
+## Usage
+
+```
 perl AnnoSNP.pl gff fasta snp
+```
 
-Using the test dataset
-perl AnnoSNP.pl data/test.gff data/test.fasta  data/test.snp
+### Test using the test dataset
 
-##Input
+```
+perl AnnoSNP.pl test_data/test.gff test_data/chr01.build05r1.fa test_data/test.cns
+```
+
+## Input
 GFF3 formated annotation (must be consistent with the fasta file)
 Fasta formated sequence file
 slim VCF formated SNP
@@ -39,7 +46,7 @@ chromosome01   |  429519 | T    |   G
 chromosome01   |  433888 | A    |   G
 
 
-##Output
+## Output
 ___*.snp_spec___ contained the annotation result for each SNP
 
 | GeneName |  Chromosome | Strand | Loci | Reference | SNP  | LociCDS | Phase |  ReferenceCodon | SNPCodon  |  MutationType |
@@ -61,7 +68,7 @@ Os01t0108000-01 | 1  |  1  |  1
 Os01t0108500-00 | 0 |   1  |  0
 
 
-##Benchmark
+## Benchmark
 
 Tested on Quad-Core AMD Opteron (tm) Processor 8374 HE 800MHz using rice resequencing data. The average speed was `19ms/SNP`.
 
