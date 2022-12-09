@@ -1,4 +1,4 @@
-#!/lustre/user/liuhui/bin/Assembly/software/perl/bin/perl
+#!/usr/bin/env perl
 
 use 5.12.0;
 use FindBin;

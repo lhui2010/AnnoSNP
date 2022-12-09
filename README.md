@@ -15,11 +15,16 @@ BioPerl (`ppm install BioPerl`)
 
 
 ## Install
-$ git clone https://github.com/lhui2010/AnnoSNP
+```
+git clone https://github.com/lhui2010/AnnoSNP
+export PATH=`realpath AnnoSNP`:$PATH
+mamba create -n annosnp -c bioconda perl-bioperl
+```
 
 ## Usage
 
 ```
+conda activate annosnp
 perl AnnoSNP.pl gff fasta snp
 ```
 
@@ -27,6 +32,7 @@ perl AnnoSNP.pl gff fasta snp
 
 ```
 perl AnnoSNP.pl test_data/test.gff test_data/chr01.build05r1.fa test_data/test.cns
+# A typical GFF with near 30,000 genes usually tooks 5 min to finish
 ```
 
 ## Input
