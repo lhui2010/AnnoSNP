@@ -17,8 +17,9 @@ BioPerl (`ppm install BioPerl`)
 ## Install
 ```
 git clone https://github.com/lhui2010/AnnoSNP
-export PATH=`realpath AnnoSNP`:$PATH
 mamba create -n annosnp -c bioconda perl-bioperl
+# export directly or add to .bashrc
+export PATH=`realpath AnnoSNP`:$PATH
 ```
 
 ## Usage
